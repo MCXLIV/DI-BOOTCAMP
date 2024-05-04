@@ -1,0 +1,115 @@
+/*style header-----------------------------*/
+#container-fluid pt-5{
+    text-align: center;
+ width: 150px;
+ height: 150px;
+ align-items: center;
+
+
+}
+head {
+    position: fixed;
+}
+h1 { 
+    color: #c1aa87f2; 
+    font-family: Monoton, sans-serif;
+    text-align: right; 
+}
+h2 {
+    color:rgba(20, 148, 198, 0.484) ; text-align: center; 
+    position:relative;
+    cursor: pointer;
+}
+h4 {
+    color:rgba(20, 148, 198, 0.484); text-align: center;
+}
+ul {
+    color:#c1aa87f2; 
+    text-align: center; 
+    display: inline-block;
+    font-weight: 14, bold; 
+    list-style:inside;  
+}
+ol {
+    color:#c1aa87f2; 
+    text-align: center; 
+    font-weight: 12, bold;
+    display: inline-block;
+}
+p { 
+    color: #c1aa87f2;
+     text-align: left; 
+     font-weight: 12, bold;
+ 
+}
+body {
+    background-image: url(Lenny_3-short.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    }
+nav {
+    background-color:rgba(0, 0, 255, 0.249);
+    position: flex;
+	
+}
+.nav-wrapper {
+   background-color: #c1aa87bf transition 0.2s; text-align: center;
+   width: 1000%;
+   height: 20%;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:#c1aa87bf;
+   font-weight: 200;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:#c1aa87bf;
+   font-weight: 200;
+   max-width: 1430px;
+}
+.Bio { 
+    border: 1px ridge #c1aa871e; 
+    width: 100%;
+    text-align: right;
+    font-size: larger;
+    top: 50%;
+  
+    }
+.film {
+    color:#89c187f2; 
+    text-align: center;
+    font-size: larger;
+    bottom:50%;
+    top: 10%;
+   
+}
+.socio {
+    color: rgba(202, 9, 193, 0.819); 
+    text-align: center; 
+    width: 60%;
+    cursor: pointer;
+    display: flex;
+}
+footer {
+    position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: px;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align:right; 
+    color:#c1aa87bf;
+    font-weight: 200;
+}
+.honoree{
+    float: right;
+}
+.awards {
+    font-size: larger;
+}
