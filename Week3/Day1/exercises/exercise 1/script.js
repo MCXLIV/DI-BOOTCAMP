@@ -4,9 +4,4 @@ let addressStreet = "Huron Ave";
 console.log(addressStreet);
 let country = "USA";
 console.log(country);
-let past =  "I grew up in "
-let address = addressNumber + ' ' + addressStreet + ' ' + country;
-let residence = past.concat(address);
-console.log(past.concat(address));
-
-
+console.log(`I grew up in ${addressNumber} ${addressStreet} ${country}`)
