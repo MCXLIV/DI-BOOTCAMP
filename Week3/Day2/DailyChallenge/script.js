@@ -12,7 +12,7 @@
     console.log(fruits);
     //Remove “Apples” from the array. Don’t use the same method as in part 1.
     fruits.splice(0,1);
-    console.log(fruits);
+    console.log(fruits);  
     //Sort the array in reverse order. (Not alphabetical, but reverse the current Array i.e. [‘a’, ‘c’, ‘b’] becomes [‘b’, ‘c’, ‘a’])
     //At the end you should see this outcome: ["Kiwi", "Oranges", "Blueberries"]
     fruits.reverse();
