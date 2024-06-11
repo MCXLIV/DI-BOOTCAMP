@@ -13,13 +13,11 @@ const lengthOfLongestWord = getLengthOfLongestWord();
 
 displayRows()
 
-function displayRows(){
-    const delimiterRow = createDelimiterRow();
-    console.log(delimiterRow);
-    for(const word of words){
-        displayWord(word);
-    }
-    console.log(delimiterRow);
+function displayRows(){const delimiterRow = createDelimiterRow();
+console.log(delimiterRow);
+for(const word of words){
+displayWord(word);
+}console.log(delimiterRow);
 }
 
 function displayWord(word){
@@ -31,24 +29,23 @@ function displayWord(word){
 
 
 function getLengthOfLongestWord(){
-  let lengthOfLongestWord = 0;
-  for(const word of words){
+let lengthOfLongestWord = 0;
+for(const word of words){
     const wordLength = word.length;
     if (wordLength > lengthOfLongestWord){
         lengthOfLongestWord = wordLength;
     }
   }       
-    return lengthOfLongestWord; 
+return lengthOfLongestWord; 
 }
 function createDelimiterRow(){
     const NUMBER_OF_STARS_ON_SIDE = 4
     const numberStarsOnFirstRow  = lengthOfLongestWord + 
     NUMBER_OF_STARS_ON_SIDE;
 
-    let row = "";
-    for(let i = 0; i < numberStarsOnFirstRow; i++){
-        row = row + "*";
-    }
-    return "*" .repeat(numberStarsOnFirstRow);
+let row = "";
+for(let i = 0; i < numberStarsOnFirstRow; i++){
+row = row + "*";
 }
-    
+return "*" .repeat(numberStarsOnFirstRow);
+}
